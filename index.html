@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body class=".work-sans-font">
     <!-- header -->
-    <header class="">
+    <header>
         <nav class="max-w-[1920px] w-[95%] lg:w-[80%] mx-auto py-5 flex justify-between items-center">
             <div>
                 <img class="w-40 md:w-50" src="./photos/Logo.png" alt="logo">
@@ -121,7 +122,7 @@
                     <p class="text-lg text-[#697484] mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Nulla purus arcu, varius eget velit non.</p>
                 </div>
-                <div class="flex-1 flex gap-6">
+                <div class="flex-1 flex flex-col md:flex-row gap-6">
                     <div class="relative -top-6">
                         <div class="rounded-xl p-8 bg-[#f9feffae] icon">
                             <div class="bg-[#EDD8FF] p-5 rounded-md inline image">
@@ -165,6 +166,98 @@
                 </div>
             </div>
         </section>
+
+        <!-- portfolio section -->
+       <section class="max-w-[1920px] w-[95%] lg:w-[80%] mx-auto">
+            <div class="py-24">
+                <div class="text-center">
+                    <h2 class="font-semibold text-5xl text-[#132238]">Portfolio</h2>
+                    <p class="text-lg text-[#87909D] mt-6">There are many variations of passages of Lorem Ipsum available, <br>
+                        but the majority have suffered alteration.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-14 mb-12">
+                    <div class="card bg-white shadow-sm">
+                        <figure>
+                            <img src="./photos/unsplash_9anj7QWy-2g.png" alt="Shoes" />
+                        </figure>
+                        <div class="card-body">
+                            <p class="text-[#87909D] text-[12px] font-medium">UI-UX DESIGN</p>
+                            <h2 class="card-title font-semibold text-lg text-[#132238]">Product Admin Dashboard</h2>
+                            <p class="text-sm text-[#556070]">Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
+                            <div class="card-actions ">
+                                <button class="all-btn-card mt-5">Case Study <i class="fa-solid fa-arrow-right ml-2"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card bg-white shadow-sm">
+                        <figure>
+                            <img src="./photos/unsplash_C5DLhUkEWfM.png" alt="Shoes" />
+                        </figure>
+                        <div class="card-body">
+                            <p class="text-[#87909D] text-[12px] font-medium">UI-UX DESIGN</p>
+                            <h2 class="card-title font-semibold text-lg text-[#132238]">Product Admin Dashboard</h2>
+                            <p class="text-sm text-[#556070]">Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
+                            <div class="card-actions ">
+                                <button class="all-btn-card mt-5">Case Study <i class="fa-solid fa-arrow-right ml-2"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card bg-white shadow-sm">
+                        <figure>
+                            <img src="./photos/unsplash_m_HRfLhgABo.png" alt="Shoes" />
+                        </figure>
+                        <div class="card-body">
+                            <p class="text-[#87909D] text-[12px] font-medium">UI-UX DESIGN</p>
+                            <h2 class="card-title font-semibold text-lg text-[#132238]">Product Admin Dashboard</h2>
+                            <p class="text-sm text-[#556070]">Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
+                            <div class="card-actions ">
+                                <button class="all-btn-card mt-5">Case Study <i class="fa-solid fa-arrow-right ml-2"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card bg-white shadow-sm">
+                        <figure>
+                            <img src="./photos/unsplash_GWe0dlVD9e0.png" alt="Shoes" />
+                        </figure>
+                        <div class="card-body">
+                            <p class="text-[#87909D] text-[12px] font-medium">UI-UX DESIGN</p>
+                            <h2 class="card-title font-semibold text-lg text-[#132238]">Product Admin Dashboard</h2>
+                            <p class="text-sm text-[#556070]">Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
+                            <div class="card-actions ">
+                                <button class="all-btn-card mt-5">Case Study <i class="fa-solid fa-arrow-right ml-2"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card bg-white shadow-sm">
+                        <figure>
+                            <img src="./photos/unsplash_8V4y-XXT3MQ.png" alt="Shoes" />
+                        </figure>
+                        <div class="card-body">
+                            <p class="text-[#87909D] text-[12px] font-medium">UI-UX DESIGN</p>
+                            <h2 class="card-title font-semibold text-lg text-[#132238]">Product Admin Dashboard</h2>
+                            <p class="text-sm text-[#556070]">Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
+                            <div class="card-actions ">
+                                <button class="all-btn-card mt-5">Case Study <i class="fa-solid fa-arrow-right ml-2"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card bg-white shadow-sm">
+                        <figure>
+                            <img src="./photos/unsplash_SavQfLRm4Do.png" alt="Shoes" />
+                        </figure>
+                        <div class="card-body">
+                            <p class="text-[#87909D] text-[12px] font-medium">UI-UX DESIGN</p>
+                            <h2 class="card-title font-semibold text-lg text-[#132238]">Product Admin Dashboard</h2>
+                            <p class="text-sm text-[#556070]">Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
+                            <div class="card-actions ">
+                                <button class="all-btn-card mt-5">Case Study <i class="fa-solid fa-arrow-right ml-2"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="all-btn block mx-auto">More Project</button>
+            </div>
+       </section>
     </main>
 
 
