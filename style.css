@@ -117,3 +117,14 @@ header nav ul li:hover {
 .linked:hover .linkdin{
     color: #0077b5;
 }
+
+.contact-box{
+    transition: transform 0.8s ease-in-out;
+}
+.contact-box:hover{
+    box-shadow: 0px 1px 20px rgba(128, 128, 128, 0.452);
+}
+.contact-box:hover .logo{
+    background-color: #A53DFF;
+    color: white;
+}
