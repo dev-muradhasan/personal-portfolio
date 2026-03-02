@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="./style.css">
@@ -22,13 +24,13 @@
             </div>
             <div class="hidden lg:block">
                 <ul class="flex items-center font-medium">
-                    <li class="btn">Home</li>
-                    <li class="btn">About</li>
-                    <li class="btn">Process</li>
-                    <li class="btn">Portfolio</li>
-                    <li class="btn">Blog</li>
-                    <li class="btn">Services</li>
-                    <li class="btn">Contact</li>
+                    <li class="btnBtn">Home</li>
+                    <li class="btnBtn">About</li>
+                    <li class="btnBtn">Process</li>
+                    <li class="btnBtn">Portfolio</li>
+                    <li class="btnBtn">Blog</li>
+                    <li class="btnBtn">Services</li>
+                    <li class="btnBtn">Contact</li>
                 </ul>
             </div>
             <div class="block lg:hidden">
@@ -123,7 +125,7 @@
                         Nulla purus arcu, varius eget velit non.</p>
                 </div>
                 <div class="flex-1 flex flex-col md:flex-row gap-6">
-                    <div class="relative -top-6">
+                    <div class=" md:relative -top-6">
                         <div class="rounded-xl p-8 bg-[#f9feffae] icon">
                             <div class="bg-[#EDD8FF] p-5 rounded-md inline image">
                                 <i class="fa-solid fa-clipboard-list text-xl text-[#A53DFF] text"></i>
@@ -172,7 +174,7 @@
             <div class="py-24">
                 <div class="text-center">
                     <h2 class="font-semibold text-5xl text-[#132238]">Portfolio</h2>
-                    <p class="text-lg text-[#87909D] mt-6">There are many variations of passages of Lorem Ipsum available, <br>
+                    <p class="text-lg text-[#87909D] mt-6 max-w-[577px] mx-auto">There are many variations of passages of Lorem Ipsum available,
                         but the majority have suffered alteration.</p>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-14 mb-12">
@@ -258,9 +260,141 @@
                 <button class="all-btn block mx-auto">More Project</button>
             </div>
        </section>
+
+       <!-- project idea seciton -->
+        <section class="bg-[#132238] py-24 px-2">
+            <div class="text-center">
+                <h1 class="font-semibold text-3xl md:text-5xl text-white leading-[56px]">Do you have Project Idia? <br>
+                Let's discuss your project!</h1>
+                <p class="text-lg text-[#A5ACB5] max-w-[581px] py-8 mx-auto">There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration.</p>
+            </div>
+            <button class="all-btn block mx-auto">Let’s work Together <i class="fa-solid fa-arrow-right ml-2"></i></button>
+        </section>
+
+        <!-- blog section -->
+         <section class="max-w-[1920px] w-[95%] lg:w-[80%] mx-auto py-24">
+            <div class="text-center">
+                <h2 class="text-[#132238] font-semibold text-5xl">Blog</h2>
+                <p class="text-[#87909D] text-lg max-w-[540px] mx-auto mt-6">There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration.</p>
+            </div>
+            <div class="slider py-9 mt-16">
+                <div class="card card-slider shadow-sm">
+                    <figure>
+                        <img src="./photos/unsplash_phIFdC6lA4E.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                       <p class="text-sm text-[#87909D]">22 Oct, 2020 / 246 Comments</p>
+                       <p class="text-[#333333] font-medium text-lg" >Lorem ipsum dolor sit consea. Nulla purus arcu</p>
+                    </div>
+                </div>
+                <div class="card card-slider shadow-sm">
+                    <figure>
+                        <img src="./photos/unsplash_z0MDyylvY1k.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                       <p class="text-sm text-[#87909D]">22 Oct, 2020 / 246 Comments</p>
+                       <p class="text-[#333333] font-medium text-lg" >Lorem ipsum dolor sit consea. Nulla purus arcu</p>
+                    </div>
+                </div>
+                <div class="card card-slider shadow-sm">
+                    <figure>
+                        <img src="./photos/unsplash_coj7UZ7iN60.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                       <p class="text-sm text-[#87909D]">22 Oct, 2020 / 246 Comments</p>
+                       <p class="text-[#333333] font-medium text-lg" >Lorem ipsum dolor sit consea. Nulla purus arcu</p>
+                    </div>
+                </div>
+                <div class="card card-slider shadow-sm">
+                    <figure>
+                        <img src="./photos/unsplash_-udZnjsCzsE.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                       <p class="text-sm text-[#87909D]">22 Oct, 2020 / 246 Comments</p>
+                       <p class="text-[#333333] font-medium text-lg" >Lorem ipsum dolor sit consea. Nulla purus arcu</p>
+                    </div>
+                </div>
+                <div class="card card-slider shadow-sm">
+                    <figure>
+                        <img src="./photos/unsplash_phIFdC6lA4E.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                       <p class="text-sm text-[#87909D]">22 Oct, 2020 / 246 Comments</p>
+                       <p class="text-[#333333] font-medium text-lg" >Lorem ipsum dolor sit consea. Nulla purus arcu</p>
+                    </div>
+                </div>
+                <div class="card card-slider shadow-sm">
+                    <figure>
+                        <img src="./photos/unsplash_z0MDyylvY1k.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                       <p class="text-sm text-[#87909D]">22 Oct, 2020 / 246 Comments</p>
+                       <p class="text-[#333333] font-medium text-lg" >Lorem ipsum dolor sit consea. Nulla purus arcu</p>
+                    </div>
+                </div>
+                <div class="card card-slider shadow-sm">
+                    <figure>
+                        <img src="./photos/unsplash_coj7UZ7iN60.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                       <p class="text-sm text-[#87909D]">22 Oct, 2020 / 246 Comments</p>
+                       <p class="text-[#333333] font-medium text-lg" >Lorem ipsum dolor sit consea. Nulla purus arcu</p>
+                    </div>
+                </div>
+                <div class="card card-slider shadow-sm">
+                    <figure>
+                        <img src="./photos/unsplash_-udZnjsCzsE.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                       <p class="text-sm text-[#87909D]">22 Oct, 2020 / 246 Comments</p>
+                       <p class="text-[#333333] font-medium text-lg" >Lorem ipsum dolor sit consea. Nulla purus arcu</p>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- what i do section -->
+          <section class="bg-[#F0F1F3] py-24">
+            <div class="max-w-[1920px] w-[95%] lg:w-[80%] mx-auto flex flex-col md:flex-row justify-between items-center gap-16">
+                <div class="flex-1">
+                    <h2 class="font-semibold text-5xl text-[#333333]">What I do?</h2>
+                    <p class="text-lg text-[#87909D] mt-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu,
+                        varius eget velit non, laoreet imperdiet
+                        orci. Mauris ultrices eget lorem ac vestibulum. Suspendis imperdiet,</p>
+                    <p class="text-lg text-[#87909D] mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu,
+                        varius eget velit non.</p>
+                    <button class="all-btn mt-12">Say Hello!</button>
+                </div>
+                <div class="space-y-6 flex-1">
+                    <div class="do-card p-8  rounded-lg bg-[#f9feffae]">
+                        <h2 class="font-semibold text-2xl text-[#132238]">User Experience (UX)</h2>
+                        <p class="text-[#424E60] mt-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget
+                            velit non, laoreet imperdiet
+                            orci. Mauris ultrices eget lorem ac vestibulum.</p>
+                    </div>
+                    <div class="do-card p-8 rounded-lg bg-[#f9feffae]">
+                        <h2 class="font-semibold text-2xl text-[#132238]">User Interface (UI)</h2>
+                        <p class="text-[#424E60] mt-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget
+                            velit non, laoreet imperdiet
+                            orci. Mauris ultrices eget lorem ac vestibulum.</p>
+                    </div>
+                    <div class="do-card p-8 rounded-lg bg-[#f9feffae]">
+                        <h2 class="font-semibold text-2xl text-[#132238]">Web Development</h2>
+                        <p class="text-[#424E60] mt-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget
+                            velit non, laoreet imperdiet
+                            orci. Mauris ultrices eget lorem ac vestibulum.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
-
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./script.js"></script>
 </body>
 
