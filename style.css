@@ -97,3 +97,16 @@ header nav ul li:hover {
     transform: scale(1.04);
 }
 
+.twitter:hover{
+    color: black;
+}
+.twitter:hover .tiwt{
+    color: #1DA1F2;
+}
+
+.linked:hover{
+    color: black;
+}
+.linked:hover .linkdin{
+    color: #0077b5;
+}
