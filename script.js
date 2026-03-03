@@ -43,3 +43,6 @@ $(".fade").slick({
   fade: true,
   cssEase: "linear",
 });
+
+
+
